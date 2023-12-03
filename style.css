@@ -69,6 +69,12 @@
     font-size: 100px;
 }
 
+.fade-in-image { animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 /*----------------------------
     Menu section style------*/
@@ -89,3 +95,13 @@
     padding-right: 200px;
     /* margin-left: 200px;*/
 } 
+
+/*----------------------------
+    scroll to top button style------*/
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
